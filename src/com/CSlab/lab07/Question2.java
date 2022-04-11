@@ -10,7 +10,7 @@ public class Question2 {
         System.out.println("Enter value of y");
         int y = sc.nextInt();
         try{
-            System.out.println(x/y);
+            System.out.println("The value of x divided by y"+x/y);
         }
         catch(Exception e){
             System.out.println(e);
